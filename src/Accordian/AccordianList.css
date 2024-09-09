@@ -1,0 +1,21 @@
+.list {
+  margin-top: 1rem;
+}
+.title {
+  font: bold;
+  border: 1px solid black;
+  width: 300px;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.body {
+  border: 1px solid black;
+  width: 300px;
+  padding: 0.2rem;
+}
+.color {
+  background-color: darkblue;
+  color: white;
+}

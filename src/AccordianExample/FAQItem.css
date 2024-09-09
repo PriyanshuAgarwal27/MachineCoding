@@ -1,0 +1,12 @@
+.question {
+  border: 1px solid black;
+  width: 350px;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+}
+.ans {
+  border: 1px solid black;
+  width: 350px;
+  /* margin-top: 0.5rem; */
+  padding: 0.2rem;
+}

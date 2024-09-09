@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.header {
+  margin: 1rem;
+}
+.hour {
+  margin: 0.75rem;
+}
+.min {
+  margin: 0.75rem;
+}
+.sec {
+  margin: 0.75rem;
+}
+.start {
+  margin: 0.75rem;
+}
+.pause {
+  margin: 0.75rem;
+}
+.reset {
+  margin: 0.75rem;
+}
+input.no-border {
+  border: none;
+}

@@ -1,0 +1,27 @@
+.play-button {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+}
+.game-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 3 columns of equal width */
+  grid-template-rows: repeat(6, 50px);
+  gap: 0.3rem;
+}
+.card-container {
+  background-color: lightblue;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px;
+}
+.card-container.active {
+  transform: rotateY(0);
+}

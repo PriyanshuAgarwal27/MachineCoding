@@ -1,0 +1,62 @@
+.container {
+  margin-top: 40px;
+  font: bold;
+}
+.undo {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: purple;
+}
+.redo {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: purple;
+}
+.neg {
+  padding: 0.2rem;
+  margin-right: 0.9rem;
+  background-color: purple;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pos {
+  padding: 0.2rem;
+  margin-left: 0.9rem;
+  background-color: purple;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.history-container {
+  margin-top: 30px;
+}
+.history-box {
+  width: 270px;
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  height: fit-content;
+}
