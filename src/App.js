@@ -5,10 +5,11 @@ import CountdownTimer from "./CountdownTimer/countdownTimer";
 import FAQComp from "./AccordianExample/FAQComp";
 import UndoRedo from "./UndoableCounter/UndoRedo.js";
 import MemoryGame from "./MemoryGame/MemoryGame.js";
+import StarRating from "./StarRating/StarRating.js";
 function App() {
   return (
     <div>
-      <MemoryGame />
+      <StarRating />
     </div>
   );
 }

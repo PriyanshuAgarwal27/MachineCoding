@@ -1,0 +1,20 @@
+.star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.star-shape {
+  font-size: 50px;
+  color: grey;
+  cursor: pointer;
+  outline: none;
+  /* background-color: transparent; */
+  /* transition: color 0.2s ease-in-out; */
+}
+.on {
+  color: yellow;
+}
+.off {
+  color: grey;
+}
